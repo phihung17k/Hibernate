@@ -73,8 +73,8 @@ public class QueryObjectDemo {
             // đều phải nằm trong 1 giao dịch (Transaction)
             // Bắt đầu giao dịch
             session.getTransaction().begin();
-            insertEmployee(session);
-//            getAllEmployee(session);
+//            insertEmployee(session);
+            getAllEmployee(session);
 //            getEmployeeInDepartment(session, "D10");
             // Commit dữ liệu: xóa kết nối session cho 1 đơn vị làm việc
             session.getTransaction().commit();
@@ -85,6 +85,8 @@ public class QueryObjectDemo {
         }
     }
 }
+
+
 
 
 
