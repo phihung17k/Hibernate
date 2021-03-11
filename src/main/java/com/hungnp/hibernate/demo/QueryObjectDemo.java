@@ -69,8 +69,8 @@ public class QueryObjectDemo {
         Session session = factory.getCurrentSession();
         
         try {
-            String a=null;
-            if(a.equals("")){
+            String Aasad=null;
+            if(Aasad.equals("")){
                 
             }
             // Tất cả các lệnh hành động với DB thông qua Hibernate
@@ -89,6 +89,9 @@ public class QueryObjectDemo {
         }
     }
 }
+
+
+
 
 
 
