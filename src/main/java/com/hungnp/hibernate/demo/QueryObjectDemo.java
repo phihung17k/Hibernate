@@ -67,8 +67,12 @@ public class QueryObjectDemo {
         SessionFactory factory = HibernateUtils.getSessionFactory();
 
         Session session = factory.getCurrentSession();
-
+        
         try {
+            String a=null;
+            if(a.equals("")){
+                
+            }
             // Tất cả các lệnh hành động với DB thông qua Hibernate
             // đều phải nằm trong 1 giao dịch (Transaction)
             // Bắt đầu giao dịch
@@ -85,6 +89,7 @@ public class QueryObjectDemo {
         }
     }
 }
+
 
 
 
