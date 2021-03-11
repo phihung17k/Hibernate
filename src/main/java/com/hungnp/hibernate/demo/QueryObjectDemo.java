@@ -59,7 +59,7 @@ public class QueryObjectDemo {
         e.setJob("ABC");
         e.setHideDate(new Date());
         e.setSalary(1000.3f);
-        e.setDepartment(dep)
+        e.setDepartment(dep);
         session.persist(e);
     }
 
@@ -85,6 +85,7 @@ public class QueryObjectDemo {
         }
     }
 }
+
 
 
 
