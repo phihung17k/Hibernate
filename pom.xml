@@ -12,7 +12,7 @@
             <url>file:${project.basedir}/lib</url>
         </repository>
     </repositories>
-    
+    a
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
