@@ -1,0 +1,6 @@
+com\hungnp\hibernate\entities\Timekeeper.class
+com\hungnp\hibernate\entities\Department.class
+com\hungnp\hibernate\entities\SalaryGrade.class
+com\hungnp\hibernate\entities\Employee.class
+com\hungnp\hibernate\utils\HibernateUtils.class
+com\hungnp\hibernate\demo\QueryObjectDemo.class
