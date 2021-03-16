@@ -64,10 +64,10 @@ public class QueryObjectDemo {
     }
 
     public static void main(String[] args) {
+    	
         SessionFactory factory = HibernateUtils.getSessionFactory();
 
         Session session = factory.getCurrentSession();
-        
         try {
             // Tất cả các lệnh hành động với DB thông qua Hibernate
             // đều phải nằm trong 1 giao dịch (Transaction)

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-clean install</actionName>
+            <displayName>clean install</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>install</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-run sonar</actionName>
+            <displayName>run sonar</displayName>
+            <goals>
+                <goal>verify</goal>
+                <goal>org.sonarsource.scanner.maven:sonar-maven-plugin:sonar</goal>
+            </goals>
+        </action>
+    </actions>
