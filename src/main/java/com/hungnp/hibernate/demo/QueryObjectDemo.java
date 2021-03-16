@@ -37,9 +37,7 @@ public class QueryObjectDemo {
         Query<Employee> query = session.createQuery(hql);
         query.setParameter("deptNo", deptNo);
         List<Employee> ems= query.getResultList();
-        for (Employee em : ems) {
-            System.out.println(em.getEmpId() + "; " + em.getEmpName());
-        }
+        
     }
     
     public static void insertEmployee(Session session){
