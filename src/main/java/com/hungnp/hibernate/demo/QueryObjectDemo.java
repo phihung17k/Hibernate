@@ -27,7 +27,7 @@ public class QueryObjectDemo {
         Query<Employee> query = session.createQuery(hql);
         List<Employee> employees = query.getResultList();
         for (Employee employee : employees) {
-            System.err.println(employee.getEmpId() + "; " + employee.getEmpName());
+            System.out.println(employee.getEmpId() + "; " + employee.getEmpName());
         }
     }
     
